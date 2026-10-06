@@ -20,4 +20,7 @@ func Execute() {
 
 func init() {
 	rootCmd.AddCommand(shareCmd)
+	rootCmd.AddCommand(pairCmd)
+	rootCmd.AddCommand(startCmd)
+	rootCmd.AddCommand(acceptCmd)
 }
